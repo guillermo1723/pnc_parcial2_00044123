@@ -1,6 +1,7 @@
 package org.example.parcial2ncapas.dto;
 
 import lombok.*;
+import org.example.parcial2ncapas.entity.Type;
 
 @Getter
 @Setter
@@ -13,6 +14,6 @@ public class MagicProviderResponseDTO {
 
         private String name;
 
-        private Enum type;
-        
+        private Type type;
+
 }
