@@ -1,7 +1,7 @@
 package org.example.parcial2ncapas.service;
 
-import org.example.parcial2ncapas.dto.MagicArticleRequestDTO;
-import org.example.parcial2ncapas.dto.MagicArticleResponseDTO;
+import org.example.parcial2ncapas.dto.article.MagicArticleRequestDTO;
+import org.example.parcial2ncapas.dto.article.MagicArticleResponseDTO;
 import org.example.parcial2ncapas.entity.MagicArticle;
 import org.example.parcial2ncapas.entity.MagicProvider;
 import org.example.parcial2ncapas.exception.BusinessRuleException;

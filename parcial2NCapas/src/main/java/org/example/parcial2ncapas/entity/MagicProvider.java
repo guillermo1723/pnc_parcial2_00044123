@@ -1,10 +1,9 @@
 package org.example.parcial2ncapas.entity;
 
-import org.example.parcial2ncapas.enums.MagicType;
-
 import jakarta.persistence.*;
 
 import lombok.*;
+import org.example.parcial2ncapas.enums.MagicType;
 
 import java.util.ArrayList;
 import java.util.List;

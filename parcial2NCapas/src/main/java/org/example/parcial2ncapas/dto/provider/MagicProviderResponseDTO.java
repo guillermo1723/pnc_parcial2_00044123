@@ -1,7 +1,8 @@
-package org.example.parcial2ncapas.dto;
+package org.example.parcial2ncapas.dto.provider;
+
+import org.example.parcial2ncapas.enums.MagicType;
 
 import lombok.*;
-import org.example.parcial2ncapas.entity.Type;
 
 @Getter
 @Setter
@@ -14,6 +15,5 @@ public class MagicProviderResponseDTO {
 
         private String name;
 
-        private Type type;
-
+        private MagicType type;
 }
